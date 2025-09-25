@@ -1,5 +1,5 @@
 ## Sommaire
-1. [Résumé] Résumé
+1. [Résumé](#resume)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
