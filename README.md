@@ -42,6 +42,6 @@ Les opérations s'effectuent alors dans l'ordre suivant :
 - Création du container db PostGreSQL
 - Création du Container api : Django crée la migrations de la table OperatorTable défini dans models.py, applique    cette migration et remplit la base de données via le fichier csv (un peu plus de 77 000 lignes)
 - Le container front-end Angular peut être créé une fois que les 2 conteneurs se sont bien exécutés.
-On peut alors se connecter sur localhost:4200 pour accéder au front-end Angular, ou sur localhost:8000/api pour accéder au "front-end" djangorest style API REST.
+- On peut alors se connecter sur localhost:4200 pour accéder au front-end Angular, ou sur localhost:8000/api pour accéder au "front-end" djangorest style API REST.
 
 
