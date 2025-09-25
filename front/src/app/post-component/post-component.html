@@ -1,0 +1,10 @@
+<p>Entrez une adresse pour savoir s'il y a de la 2g, 3g et 4g</p>
+
+<div class="form-row">
+  <input type="text" [(ngModel)]="inputValue" placeholder="3 Rue des grands champs 75020, Paris">
+  <button (click)="callApi()">Recherchez</button>
+</div>
+
+<div *ngIf="apiResponse" class="response">
+  {{ apiResponse }}
+</div>
