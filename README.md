@@ -34,6 +34,8 @@ La base de données est définie dans un premier temps (avec l'extension postgis
 Les coordonnées x et y présents dans le fichier data_operator.csv sont remplacés par la latitude et la longitude dans la base de données PostgreSQL (grâce au module pyproj).
 
 ### Lancer l'application
-
+Il faut avoir Docker compose installé sur sa machine et lancer la commande suivante : ```console
+docker compose up --build
+``` dans un terminal depuis la racine de l'application où se situe le fichier docker-compose.yml
 
 
