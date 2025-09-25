@@ -3,7 +3,7 @@
 2. [Exemples d'utilisation](#Exemples-dutilisation)
 3. [Conteneurisation des services](#Conteneurisation-des-services)
 4. [La base de données](#La-base-de-données)
-5. [Comment lancer l'application ?](#Comment-lancer-lapplication)
+5. [Comment lancer l'application ?](#Comment-lancer-lapplication?)
 
 
 ## Résumé
