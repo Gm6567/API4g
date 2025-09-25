@@ -35,7 +35,6 @@ Les coordonnées x et y présents dans le fichier data_operator.csv sont remplac
 
 ### Lancer l'application
 Il faut avoir Docker compose installé sur sa machine et lancer la commande suivante : ```console
-docker compose up --build
-``` dans un terminal depuis la racine de l'application où se situe le fichier docker-compose.yml
+docker compose up --build``` 
 
 
