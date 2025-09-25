@@ -1,8 +1,8 @@
 ## Sommaire
 1. [Résumé](#Résumé)
 2. [Exemples d'utilisation](#Exemples-dutilisation)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
+3. [Conteneurisation des services](#Conteneurisation-des-services)
+4. [La base de données](#La-base-de-données)
 5. [FAQs](#faqs)
 
 
@@ -21,7 +21,7 @@ La base de données de l'API est une base de données PostgreSQL.
 #### Exemple de l'utilisation du front-end Angular
 <img width="923" height="235" alt="image" src="https://github.com/user-attachments/assets/eb6dd9d4-fedf-44d8-8006-bd7cd98d4d61" />
 
-### Containerisation des services
+### Conteneurisation des services
 
 Le fichier Docker-compose.yml définit 3 conteneurs dans cet ordre:
 - Un pour la base de données PostgreSQL
