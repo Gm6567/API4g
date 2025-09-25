@@ -3,7 +3,7 @@
 2. [Exemples d'utilisation](#Exemples-dutilisation)
 3. [Conteneurisation des services](#Conteneurisation-des-services)
 4. [La base de données](#La-base-de-données)
-5. [Comment lancer l'application ?](#Comment-lancer-lapplication?)
+5. [Lancer l'application](#Lancer-lapplication)
 
 
 ## Résumé
@@ -33,7 +33,7 @@ La base de données est définie dans un premier temps (avec l'extension postgis
 /commands.
 Les coordonnées x et y présents dans le fichier data_operator.csv sont remplacés par la latitude et la longitude dans la base de données PostgreSQL (grâce au module pyproj).
 
-### Comment lancer l'application ?
+### Lancer l'application
 
 
 
