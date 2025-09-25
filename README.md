@@ -19,5 +19,5 @@ Le fichier Docker-compose.yml définit 3 conteneurs dans cet ordre:
 - Un pour la base de données PostgreSQL
 - Un pour l'API Django rest
 - Un pour le front-end Angular
-La base de données est définie dans un premier temps (avec l'extension postgis utile pour le calcul de distance entre plusieurs longitudes et latitudes), puis est remplie lors de la création du container django grâce à l'éxecution d'un script (../addressApplication/get_data_from_csv.py) 
+La base de données est définie dans un premier temps (avec l'extension postgis utile pour le calcul de distance entre plusieurs longitudes et latitudes), puis est remplie lors de la création du container django grâce à l'éxecution du script get_data_from_csv.py 
 
