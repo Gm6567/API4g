@@ -14,7 +14,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         path = "data_lambert93/data_operator.csv"
         if len(OperatorTable.objects.all()) > 0:
-            self.stdout.write(self.style.WARNING("Data in Lambert93 table is not empty"))
+            self.stdout.write(self.style.WARNING("Data in OperatorTable is not empty"))
             return
         try:
             df = pd.read_csv(path)
