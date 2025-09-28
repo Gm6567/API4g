@@ -51,6 +51,8 @@ async def adress4GView(request):
 
         for key, value in results:
             response_data[key] = value
+            if "error" in value:
+               raise Exception
 
         return Response(response_data, status=status.HTTP_200_OK)
     except Exception as exc:
